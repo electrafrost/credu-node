@@ -58,3 +58,9 @@ h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: 
 
 footer { max-width: 880px; margin: 0 auto; padding: 24px 20px 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
 footer a { color: var(--accent); }
+
+.icon-link { display: inline-flex; align-items: center; justify-content: center; color: var(--muted); margin: 0 0 0 8px; vertical-align: middle; text-decoration: none; }
+.icon-link:hover { color: var(--accent); }
+.icon-link svg { display: block; }
+.read-note p { margin: 0 0 8px; }
+.read-note p:last-child { margin: 0; }
