@@ -127,21 +127,29 @@ async function render() {
     ]);
     const n = manifest.node || {};
     const jur = [n.primary_jurisdiction].concat(n.additional_jurisdictions || []).filter(Boolean).join(", ");
-    const links = manifest.links || {};
-    const linkBits = Object.keys(links).map(function (k) {
-      return '<a href="' + esc(links[k]) + '" target="_blank" rel="noopener">' + esc(k.replace(/_/g, " ")) + "</a>";
-    }).join(" &middot; ");
+    const contact = manifest.contact || {};
+    var ICONS = {
+      github: '<svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.6 0 0 3.6 0 8c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.5c-2 .4-2.5-.5-2.7-.9-.1-.3-.5-.9-.8-1.1-.3-.2-.7-.5 0-.5.6 0 1 .6 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.5 1.1.2 1.9.1 2.1.5.5.8 1.2.8 2.1 0 3.1-1.8 3.8-3.6 4 .3.3.6.8.6 1.5v2.2c0 .2.1.5.5.4A8 8 0 0016 8c0-4.4-3.6-8-8-8z"/></svg>',
+      email: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',
+      website: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg>'
+    };
+    function iconLink(kind, href, label) { if (!href) return ""; return '<a class="icon-link" href="' + esc(href) + '" target="_blank" rel="noopener" aria-label="' + label + '" title="' + label + '">' + ICONS[kind] + "</a>"; }
+    const linkBits = [
+      iconLink("github", contact.github, "GitHub"),
+      iconLink("email", contact.email ? "mailto:" + contact.email : "", "Email"),
+      iconLink("website", contact.website, "Website")
+    ].join("");
 
     let html = "";
     html += '<header class="node-header">';
     html += '<h1 class="node-name">' + esc(n.practitioner_name) + "</h1>";
-    html += '<p class="node-desig">' + esc((n.professional_designations || []).join(", ")) + "</p>";
+    html += '<p class="node-desig">MY PROFESSIONAL GRAPH</p>';
     html += '<p class="node-meta">Jurisdictions: ' + esc(jur) + (linkBits ? " &nbsp;&middot;&nbsp; " + linkBits : "") + "</p>";
     html += "</header>";
 
-    html += '<div class="read-note">This page is the human view. An AI agent reads the same record from ' +
-      '<a href="credu.json">credu.json</a> and <a href="llms.txt">llms.txt</a>. ' +
-      "Each item can be verified on Bitcoin without trusting this site.</div>";
+    html += '<div class="read-note"><p>My professional graph is a verifiable, machine-readable record of my professional registrations, education and continuing professional development, open for discovery and procurement by AI agents and for inspection by professional bodies.</p>' +
+      '<p>This page is the human view. An AI agent reads the same record from <a href="credu.json">credu.json</a> and <a href="llms.txt">llms.txt</a>.</p>' +
+      '<p>Each record carries a SHA-256 hash of its supporting evidence, anchored to the Bitcoin blockchain. Anyone can recompute the hash and match it against the chain to confirm when the evidence was anchored and that it has not changed since, without relying on this site. Records marked pending are not yet anchored.</p></div>';
 
     const regList = regs.registrations || [];
     if (regList.length) html += "<section><h2>Professional registrations and designations</h2>" + regList.map(regCard).join("") + "</section>";
