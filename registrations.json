@@ -1,0 +1,70 @@
+{
+  "registrations": [
+    {
+      "id": "ftia",
+      "designation": "Fellow of The Tax Institute",
+      "abbrev": "FTIA",
+      "body": "The Tax Institute",
+      "jurisdiction": "AU",
+      "type": "designation",
+      "since": "2007",
+      "status": "current",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "cta",
+      "designation": "Chartered Tax Adviser",
+      "abbrev": "CTA",
+      "body": "The Tax Institute",
+      "jurisdiction": "AU",
+      "type": "designation",
+      "since": "2011",
+      "status": "current",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "fipa",
+      "designation": "Fellow of the Institute of Public Accountants",
+      "abbrev": "FIPA",
+      "body": "Institute of Public Accountants",
+      "jurisdiction": "AU",
+      "type": "designation",
+      "since": "[confirm year]",
+      "status": "current",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "gcpa",
+      "designation": "[GCPA full title to confirm]",
+      "abbrev": "GCPA",
+      "body": "IPA Group",
+      "jurisdiction": "AU",
+      "type": "designation",
+      "since": "[confirm year]",
+      "status": "current",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "registered-tax-agent",
+      "designation": "Registered Tax Agent",
+      "abbrev": null,
+      "body": "Tax Practitioners Board",
+      "jurisdiction": "AU",
+      "type": "registration",
+      "since": "[confirm year]",
+      "renewal": "[confirm YYYY-MM]",
+      "status": "current",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    }
+  ]
+}

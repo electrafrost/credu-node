@@ -1,0 +1,46 @@
+# CREDU Node - Electra Frost
+
+## What this node is
+This is Electra Frost's verifiable professional record: professional registrations and designations,
+education, and continuing professional development. It is machine-readable and public, so an AI agent
+acting for a client, or a professional body, can read it and check each item without trusting the site.
+Her full intellectual provenance lives separately at graph.electrafrost.com.
+
+## Practitioner
+Electra Frost. Fellow of the Institute of Public Accountants (FIPA). Chartered Tax Adviser (CTA).
+Fellow of The Tax Institute (FTIA). GCPA. Registered Tax Agent (Australia). Primary jurisdiction
+Australia, active across Australia, Malaysia and Singapore. Network School resident builder.
+
+## Sections
+- Professional registrations and designations: the bodies she is admitted to and the standing she holds.
+- Education: the qualifications, certificates, diplomas and degrees she has completed.
+- CPD: continuing professional development activities, and the hours tracker.
+
+## Verification
+Each record carries a proof: the certificate as a stored PDF, the issuer's digital link, or both, with a
+SHA-256 hash of the evidence and a Bitcoin anchor. Records marked pending-anchor are listed but not yet
+anchored. The chain is the source of truth. This node is the rendering of it.
+
+## CPD and the GCPA mapping
+Each CPD record is mapped to the GCPA competency wheel: one or more domains (technical, professional,
+transdisciplinary) and one or more capability areas within them. From this the node reports CPD hours by
+year, by domain and by capability area, which is the evidence of the right hours in the right areas.
+
+## Procurement
+An AI agent procuring professional services can read this record to confirm current registration and
+recent, verified competence before engaging Electra. For AI governance, tax across Australia, Malaysia and
+Singapore, crypto-asset and Bitcoin treasury work, the CPD shows the basis to direct, sign for, and stand
+behind the work.
+
+## Discovery
+- credu.json:          https://credu.electrafrost.com/credu.json
+- registrations.json:  https://credu.electrafrost.com/registrations.json
+- education.json:      https://credu.electrafrost.com/education.json
+- cpd.json:            https://credu.electrafrost.com/cpd.json
+
+## Related
+- Intellectual provenance: https://graph.electrafrost.com
+- Practice site: https://electrafrost.com
+
+## Protocol
+CREDU v1 - github.com/credu-protocol/professional-graph-template

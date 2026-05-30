@@ -1,0 +1,60 @@
+{
+  "education": [
+    {
+      "id": "master-international-taxation",
+      "title": "Master of International Taxation",
+      "institution": "[confirm institution]",
+      "level": "masters",
+      "field": "International taxation",
+      "completed": "[confirm year, approx 2012]",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "blockchain-collective-advanced-diploma-2022",
+      "title": "Advanced Diploma in Blockchain",
+      "institution": "Blockchain Collective",
+      "level": "diploma",
+      "field": "Blockchain",
+      "completed": "2022",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "rmit-developing-blockchain-strategy-2018",
+      "title": "Developing Blockchain Strategy",
+      "institution": "RMIT University",
+      "level": "short-course",
+      "field": "Blockchain",
+      "completed": "2018",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "mhfa-certificate-2020",
+      "title": "Mental Health First Aid Certificate",
+      "institution": "Mental Health First Aid International",
+      "level": "certificate",
+      "field": "Mental health first aid",
+      "completed": "2020",
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    },
+    {
+      "id": "bluedot-frontier-ai-governance-2026",
+      "title": "Frontier AI Governance, Cohort 1",
+      "institution": "BlueDot Impact",
+      "level": "short-course",
+      "field": "AI governance",
+      "completed": "2026-02",
+      "hours": 30,
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null }
+    }
+  ]
+}

@@ -1,74 +1,2311 @@
 {
   "cpd": [
     {
-      "id": "bluedot-frontier-ai-governance-2025",
-      "title": "AI Safety: Frontier AI Governance, Cohort 1",
-      "provider": "BlueDot Impact",
-      "topic": "AI governance",
-      "format": "structured-course",
-      "completed": "2026-03",
-      "hours": 30,
-      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
-      "evidence_path": null,
-      "skills": ["frontier AI capability assessment", "AI governance", "institutional dependencies", "governance under crisis"],
-      "notes": "ANCHOR THIS ONE FIRST for the demo. It is recent, on-thesis, and you have the certificate. Once OpenTimestamps confirms, set status to anchored and fill the verification block."
+      "id": "cpd-2026-04-22-aml-ctf-program-workshop-wa",
+      "title": "AML/CTF Program Workshop - WA",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2026-04-22",
+      "hours": 7,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Risk Management"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
     },
     {
-      "id": "bluedot-agi-strategy-2026",
-      "title": "AI Safety: AGI Strategy",
-      "provider": "BlueDot Impact",
-      "topic": "AGI strategy",
-      "format": "structured-course",
-      "completed": "2026-01",
-      "hours": 30,
-      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
-      "evidence_path": null,
-      "skills": ["AI threat models", "kill chain analysis", "defence in depth", "beneficial AI strategy"],
-      "notes": null
+      "id": "cpd-2026-04-15-malaysian-international-tax-for-long-termers",
+      "title": "Malaysian International Tax for Long-Termers",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2026-04-15",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
     },
     {
-      "id": "graph-electrafrost-build-2026",
-      "title": "Built graph.electrafrost.com, a machine-readable intellectual provenance graph",
-      "provider": null,
-      "topic": "AI tooling and practitioner-sovereign infrastructure",
-      "format": "building",
-      "completed": "2026-04",
-      "hours": 20,
-      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
-      "evidence_path": null,
-      "skills": ["React", "Cloudflare Workers", "Vectorize", "retrieval", "LLM integration", "AI-assisted development"],
-      "notes": "The building format records AI-assisted tooling work as CPD where no course provider exists. Adjust hours to your real log. Evidence can be the public repo and commit history."
+      "id": "cpd-2026-04-14-esg-essentials-for-smps",
+      "title": "ESG Essentials for SMPs",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2026-04-14",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "transdisciplinary",
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Sustainability",
+        "Business Economics & Environment"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
     },
     {
-      "id": "credu-node-build-2026",
-      "title": "Built a CREDU node and the v1 fork-and-deploy template",
-      "provider": null,
-      "topic": "Verifiable credential infrastructure on Bitcoin",
-      "format": "building",
-      "completed": "2026-05",
+      "id": "cpd-2026-03-29-the-ai-powered-accountant-program",
+      "title": "The AI-Powered Accountant Program",
+      "provider": "Model Citizn",
+      "topic": "",
+      "format": null,
+      "completed": "2026-03-29",
       "hours": 8,
-      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
-      "evidence_path": null,
-      "skills": ["SHA-256", "Bitcoin anchoring", "OpenTimestamps", "static site deployment", "AI-assisted development"],
-      "notes": null
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
     },
     {
-      "id": "crypto-accounting-academy-2024",
-      "title": "Crypto Accounting Academy, Credential 18",
-      "provider": "The Accountant Quits",
-      "topic": "Crypto-asset accounting",
+      "id": "cpd-2026-03-27-ipa-wa-conference-fremantle-day-2",
+      "title": "IPA WA Conference - Fremantle (Day 2)",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": "conference",
+      "completed": "2026-03-27",
+      "hours": 3,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-03-26-ipa-wa-conference-fremantle-day-1",
+      "title": "IPA WA Conference - Fremantle (Day 1)",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": "conference",
+      "completed": "2026-03-26",
+      "hours": 7,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-03-04-malaysia-ipa-members-meet-and-dialogue",
+      "title": "Malaysia IPA Members Meet and Dialogue",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2026-03-04",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-02-25-tax-clue-ai-law-and-business",
+      "title": "Tax Clue: AI, Law and Business",
+      "provider": "Tax Institute",
+      "topic": "",
+      "format": null,
+      "completed": "2026-02-25",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "transdisciplinary",
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen",
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-02-24-wa-tax-institute-member-consultation",
+      "title": "WA Tax Institute Member Consultation",
+      "provider": "Tax Institute",
+      "topic": "",
+      "format": null,
+      "completed": "2026-02-24",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-02-16-ai-safety-agi-strategy",
+      "title": "AI Safety & AGI Strategy",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2026-02-16",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Governance & Culture",
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-02-10-ai-safety-frontier-ai-governance-first-cohort-se",
+      "title": "AI Safety: Frontier AI Governance (first cohort, selective intake)",
+      "provider": "BlueDot Impact",
+      "topic": "",
+      "format": null,
+      "completed": "2026-02-10",
+      "hours": 30,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Governance & Culture",
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-01-19-ai-literacy-safety-for-public-accountants",
+      "title": "AI Literacy & Safety for Public Accountants",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2026-01-19",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2026-01-15-ai-safety-agi-strategy-selective-intake",
+      "title": "AI Safety: AGI Strategy (selective intake)",
+      "provider": "BlueDot Impact",
+      "topic": "",
+      "format": null,
+      "completed": "2026-01-15",
+      "hours": 30,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Governance & Culture",
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-12-03-ipa-wa-christmas-party-2025",
+      "title": "IPA WA Christmas Party 2025",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-12-03",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-11-21-when-crypto-lending-triggers-capital-gains-tax-w",
+      "title": "When Crypto Lending Triggers Capital Gains Tax - What Accountants Must Know",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-11-21",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary",
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen",
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-11-11-get-seen-get-connected-make-linkedin-work-for-yo",
+      "title": "Get Seen, Get Connected: Make LinkedIn Work for You in 2026",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-11-11",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-11-10-malaysian-tax-wiki-for-ns-long-termers-with-exam",
+      "title": "Malaysian Tax Wiki for NS Long-Termers - with examples",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-11-10",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-11-05-malaysia-mac-meeting-november-2025",
+      "title": "Malaysia MAC Meeting - November 2025",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-11-05",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-09-19-ipa-wa-fellows-lunch-2025",
+      "title": "IPA WA Fellows Lunch 2025",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-09-19",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-09-19-skybots-2-day-ai-and-rpa-workshop",
+      "title": "Skybots 2-day AI and RPA Workshop",
+      "provider": "Smart Business Solutions Group",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2025-09-19",
+      "hours": 14,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-09-13-learnathon-vibe-to-app-with-cursor-ai",
+      "title": "Learnathon - Vibe to App with Cursor AI",
+      "provider": "Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-09-13",
+      "hours": 6,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-09-02-malaysia-member-advisory-committee-in-kl",
+      "title": "Malaysia Member Advisory Committee in KL",
+      "provider": "Institute of Public Accountants",
+      "topic": "",
+      "format": null,
+      "completed": "2025-09-02",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Business Economics & Environment"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-08-25-ipa-group-strategic-plan-launch-wa",
+      "title": "IPA Group Strategic Plan Launch WA",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-08-25",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-08-19-skybots-2-day-ai-and-rpa-workshop",
+      "title": "Skybots 2-day AI and RPA Workshop",
+      "provider": "Smart Business Solutions Group",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2025-08-19",
+      "hours": 14,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-07-10-bitcoin-ecosystem-explorers-what-is-bitcoin-and",
+      "title": "Bitcoin Ecosystem Explorers: What is Bitcoin and How Does it Fit In with Everything Else?",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-07-10",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-07-09-don-t-get-tax-rekt-crypto-taxes-usa",
+      "title": "Don’t Get Tax Rekt: Crypto Taxes USA",
+      "provider": "ElectraFi and Squeeze Taxes USA",
+      "topic": "",
+      "format": null,
+      "completed": "2025-07-09",
+      "hours": 1,
+      "gcpa_domain": [
+        "transdisciplinary",
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen",
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-07-09-don-t-get-tax-rekt-crypto-tax-101",
+      "title": "Don't Get Tax Rekt: Crypto Tax 101",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-07-09",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary",
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen",
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-07-03-national-divisional-advisory-committee-dac-town",
+      "title": "National Divisional Advisory Committee (DAC) Town Hall",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-07-03",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals",
+        "Business Economics & Environment"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-06-19-tax-institute-international-tax-summit",
+      "title": "Tax Institute International Tax Summit",
+      "provider": "The Tax Institute",
+      "topic": "",
+      "format": "conference",
+      "completed": "2025-06-19",
+      "hours": 7,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-06-12-a-comprehensive-and-practical-guide-to-the-new-t",
+      "title": "A Comprehensive and Practical Guide To The New TASA Rules and The Deductibility of Financial Advice Fees",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-06-12",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-06-04-bitcoin-ecosystem-explorers-stack-sats-on-solana",
+      "title": "Bitcoin Ecosystem Explorers - Stack Sats on Solana: Auto-DCA BTC from Every DeFi Tx",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-06-04",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-05-28-2025-tax-retreat-singapore",
+      "title": "2025 Tax Retreat - Singapore",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-05-28",
+      "hours": 15,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-05-22-tasa-compliance-qms-workshop",
+      "title": "TASA Compliance QMS Workshop",
+      "provider": "ChangeGPS",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2025-05-22",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-05-21-accounting-beyond-the-balance-sheet",
+      "title": "Accounting Beyond the Balance Sheet",
+      "provider": "CPA Australia",
+      "topic": "",
+      "format": null,
+      "completed": "2025-05-21",
+      "hours": 3,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-04-30-bitcoin-ecosystem-explorers-the-lightning-networ",
+      "title": "Bitcoin Ecosystem Explorers - The Lightning Network!",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-04-30",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-04-16-bitcoin-ecosystem-explorers-internet-computer-pr",
+      "title": "Bitcoin Ecosystem Explorers - Internet Computer Protocol (ICP)",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-04-16",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-04-10-bitcoin-ecosystem-explorers",
+      "title": "Bitcoin Ecosystem Explorers",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2025-04-10",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-03-20-2025-wa-conference",
+      "title": "2025 WA Conference",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": "conference",
+      "completed": "2025-03-20",
+      "hours": 20,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-02-04-malaysia-mac-meeting-february-2025",
+      "title": "Malaysia MAC Meeting - February 2025",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-02-04",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2025-01-28-future-of-accounting-why-sustainability-matters",
+      "title": "Future of Accounting: Why Sustainability Matters to Your Practice",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2025-01-28",
+      "hours": 1,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Sustainability"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-12-16-bitcoin-unit-of-account-pr-spera-subscription-st",
+      "title": "Bitcoin Unit-of-Account: Próspera, Subscription States, and Beyond",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2024-12-16",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-12-11-bitcoin-ecosystem-today-layers-and-btcfi",
+      "title": "Bitcoin Ecosystem Today: Layers and BTCFi",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2024-12-11",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-11-27-ipa-2024-annual-general-meeting",
+      "title": "IPA 2024 Annual General Meeting",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2024-11-27",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-11-25-setting-up-a-company-in-singapore",
+      "title": "Setting up a Company in Singapore",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2024-11-25",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-11-19-bitcoin-intro-course",
+      "title": "Bitcoin Intro Course",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
       "format": "structured-course",
-      "completed": "2024-07",
-      "hours": null,
-      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
-      "evidence_path": null,
-      "skills": ["block explorers", "on-chain accounting", "treasury management", "crypto tax", "crypto audit"],
-      "notes": "Add hours from your CPD log."
+      "completed": "2024-11-19",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-11-08-let-s-talk-about-tax",
+      "title": "Let's Talk About TAX",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2024-11-08",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-10-29-trust-distributions-harder-than-you-think",
+      "title": "Trust Distributions — harder than you think",
+      "provider": "The Tax Institute",
+      "topic": "",
+      "format": null,
+      "completed": "2024-10-29",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-10-25-web3-accounting-essentials-systems-best-practice",
+      "title": "Web3 Accounting Essentials: Systems & Best Practices",
+      "provider": "Electra Frost & Network School",
+      "topic": "",
+      "format": null,
+      "completed": "2024-10-25",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-09-19-qld-fellows-lunch",
+      "title": "QLD Fellows Lunch",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2024-09-19",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-08-22-tax-n-lunch-ato-authorities-the-hierarchy-of-wha",
+      "title": "Tax n’ Lunch - ATO authorities, the hierarchy of what’s binding",
+      "provider": "HWL Ebsworth Lawyers",
+      "topic": "",
+      "format": null,
+      "completed": "2024-08-22",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-08-22-workshop-on-crypto-finance-and-web3-accounting-a",
+      "title": "Workshop on Crypto Finance and Web3 Accounting (as presenter and attendee)",
+      "provider": "CAANZ and AEM Algorithm",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2024-08-22",
+      "hours": 1,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-08-21-advising-clients-on-structures-webinar",
+      "title": "Advising Clients On Structures (Webinar)",
+      "provider": "Advisers Digest",
+      "topic": "",
+      "format": "webinar",
+      "completed": "2024-08-21",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Business Economics & Environment"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-08-13-the-employee-versus-contractor-distinction",
+      "title": "The Employee Versus Contractor Distinction",
+      "provider": "The Tax Institute",
+      "topic": "",
+      "format": null,
+      "completed": "2024-08-13",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Law for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-08-08-introduction-to-sustainability-reporting",
+      "title": "Introduction to Sustainability Reporting",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2024-08-08",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Sustainability"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2024-07-24-crypto-accounting-academy-credential-18",
+      "title": "Crypto Accounting Academy (Credential #18)",
+      "provider": "The Accountant Quits",
+      "topic": "",
+      "format": null,
+      "completed": "2024-07-24",
+      "hours": 40,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2023-12-01-advanced-diploma-of-applied-blockchain",
+      "title": "Advanced Diploma of Applied Blockchain",
+      "provider": "Blockchain Academy International / TAFE Queensland",
+      "topic": "",
+      "format": null,
+      "completed": "2023-12-01",
+      "hours": 200,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2023-04-18-developing-blockchain-strategy",
+      "title": "Developing Blockchain Strategy",
+      "provider": "RMIT University",
+      "topic": "",
+      "format": null,
+      "completed": "2023-04-18",
+      "hours": 20,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2021-11-04-bas-advanced-disclosure-and-compliance-mastercla",
+      "title": "BAS Advanced Disclosure and Compliance Masterclass",
+      "provider": "Advisers Digest",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2021-11-04",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals",
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2021-10-07-effective-salary-packaging-masterclass-3-session",
+      "title": "Effective Salary Packaging Masterclass (3 sessions)",
+      "provider": "Advisers Digest",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2021-10-07",
+      "hours": 3,
+      "gcpa_domain": [
+        "transdisciplinary"
+      ],
+      "gcpa_capability": [
+        "Governance & Culture"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2021-09-30-tax-treatment-of-cryptocurrency-and-digital-asse",
+      "title": "Tax Treatment of Cryptocurrency and Digital Assets",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2021-09-30",
+      "hours": 2,
+      "gcpa_domain": [
+        "transdisciplinary",
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Digital Acumen",
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2021-09-09-employment-intensive-masterclass-3-sessions",
+      "title": "Employment Intensive Masterclass (3 sessions)",
+      "provider": "Advisers Digest",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2021-09-09",
+      "hours": 3,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2021-07-08-tax-aspects-of-marital-separation-and-divorce-3",
+      "title": "Tax Aspects of Marital Separation and Divorce (3-session masterclass)",
+      "provider": "Advisers Digest",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2021-07-08",
+      "hours": 3,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2020-06-24-a-guide-to-company-tax-returns-three-part-series",
+      "title": "A Guide to Company Tax Returns - Three Part Series",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2020-06-24",
+      "hours": 6,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2020-06-08-support-for-covid-19-affected-qld-small-business",
+      "title": "Support for COVID-19 affected QLD small business and landlords",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2020-06-08",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2020-02-11-gst-masterclass-series",
+      "title": "GST Masterclass Series",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": "workshop",
+      "completed": "2020-02-11",
+      "hours": 6,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2020-02-10-auskey-ends-in-march-get-ready-for-mygovid-and-r",
+      "title": "AUSKey ends in March. Get ready for myGovID and RAM",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2020-02-10",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2019-11-06-trusts-an-overview",
+      "title": "Trusts - an Overview",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2019-11-06",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2019-10-31-mental-health-first-aid-for-ipa-members-and-smal",
+      "title": "Mental Health First Aid for IPA Members and Small Business",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2019-10-31",
+      "hours": 7,
+      "gcpa_domain": [
+        "professional"
+      ],
+      "gcpa_capability": [
+        "Autonomous Learning & Wellbeing"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2019-10-25-financial-accounting-and-reporting-back-to-basic",
+      "title": "Financial Accounting and Reporting: Back to Basics",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2019-10-25",
+      "hours": 6.5,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2019-08-15-are-you-selling-a-product-or-a-service-psi-rules",
+      "title": "Are you selling a product or a service? PSI rules",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2019-08-15",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2019-07-25-how-to-manage-ato-audits-and-tpb-investigations",
+      "title": "How to Manage ATO audits and TPB Investigations",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2019-07-25",
+      "hours": 3,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals",
+        "Audit & Assurance"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2019-06-20-a-guide-to-company-tax-returns-three-part-series",
+      "title": "A Guide to Company Tax Returns - Three Part Series",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2019-06-20",
+      "hours": 6,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2018-06-11-tax-agent-guide-brisbane-encore",
+      "title": "Tax Agent Guide: Brisbane Encore",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2018-06-11",
+      "hours": 7.5,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2017-03-21-new-payroll-developments",
+      "title": "New Payroll Developments",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2017-03-21",
+      "hours": 2,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2016-02-01-diploma-of-financial-planning",
+      "title": "Diploma of Financial Planning",
+      "provider": "Mentor Education",
+      "topic": "",
+      "format": null,
+      "completed": "2016-02-01",
+      "hours": 50,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2016-01-13-xero-pm-training",
+      "title": "Xero PM Training",
+      "provider": "FGS",
+      "topic": "",
+      "format": null,
+      "completed": "2016-01-13",
+      "hours": 16,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2016-01-08-webinar-ozforex-and-xero",
+      "title": "Webinar - OzForex and Xero",
+      "provider": "Xero",
+      "topic": "",
+      "format": "webinar",
+      "completed": "2016-01-08",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2015-12-12-webinar-delivery-of-business-advisory-services",
+      "title": "Webinar - Delivery of Business Advisory Services",
+      "provider": "ESS BIZTOOLS",
+      "topic": "",
+      "format": "webinar",
+      "completed": "2015-12-12",
+      "hours": 1,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Business Economics & Environment"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2015-10-15-xero-advanced",
+      "title": "Xero Advanced",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2015-10-15",
+      "hours": 8,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2015-09-17-xero-intermediate-and-payroll",
+      "title": "Xero Intermediate and Payroll",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2015-09-17",
+      "hours": 8,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2015-08-27-real-estate-agent-and-trust-account-audit-and-op",
+      "title": "Real Estate Agent and Trust Account Audit and Optional Auditing NFP",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2015-08-27",
+      "hours": 3,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Audit & Assurance"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2015-08-13-xero-fundamentals-and-payroll",
+      "title": "Xero Fundamentals and Payroll",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2015-08-13",
+      "hours": 8,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2015-01-10-master-of-international-taxation",
+      "title": "Master of International Taxation",
+      "provider": "UNSW Australia",
+      "topic": "",
+      "format": null,
+      "completed": "2015-01-10",
+      "hours": 300,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2013-04-29-divisional-advisory-committee",
+      "title": "Divisional Advisory Committee",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2013-04-29",
+      "hours": 1.5,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals",
+        "Business Economics & Environment"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2012-11-15-ipa-nsw-and-act-congress-and-business-expo-2012",
+      "title": "IPA NSW and ACT Congress and Business Expo 2012",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2012-11-15",
+      "hours": 14,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2012-06-29-tax-agents-guide-roadshow",
+      "title": "Tax Agents Guide Roadshow",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2012-06-29",
+      "hours": 7,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Taxation for Accounting Professionals"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2012-05-08-evolution-ii-accountant-to-business-mentor",
+      "title": "Evolution II - Accountant To Business Mentor",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2012-05-08",
+      "hours": 7.5,
+      "gcpa_domain": [
+        "professional"
+      ],
+      "gcpa_capability": [
+        "Teamwork & Culture"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
+    },
+    {
+      "id": "cpd-2012-03-05-professional-practice-program-ppp",
+      "title": "Professional Practice Program (PPP)",
+      "provider": "IPA Group",
+      "topic": "",
+      "format": null,
+      "completed": "2012-03-05",
+      "hours": 16,
+      "gcpa_domain": [
+        "technical"
+      ],
+      "gcpa_capability": [
+        "Financial Accounting & Reporting"
+      ],
+      "certificate_pdf": null,
+      "certificate_url": null,
+      "verification": {
+        "method": "sha256-bitcoin-anchor",
+        "status": "pending-anchor",
+        "evidence_hash": null,
+        "anchored_at": null,
+        "bitcoin_txid": null,
+        "block_height": null,
+        "block_explorer_url": null
+      }
     }
-  ],
-  "summary": {
-    "current_year": 2026,
-    "current_year_hours": 64,
-    "rolling_three_year_hours": 88
-  }
+  ]
 }
