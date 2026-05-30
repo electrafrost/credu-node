@@ -9,10 +9,7 @@
       "GCPA"
     ],
     "primary_jurisdiction": "AU",
-    "additional_jurisdictions": [
-      "MY",
-      "SG"
-    ],
+    "additional_jurisdictions": [],
     "node_url": "https://credu.electrafrost.com",
     "repo_url": "https://github.com/electrafrost/credu-node",
     "llms_txt": "https://credu.electrafrost.com/llms.txt",
@@ -32,7 +29,7 @@
     "cpd_entries_count": 88,
     "cpd_period_label": "FY2025-26",
     "cpd_hours_current_period": 150.5,
-    "cpd_hours_rolling_three_year": 470.0
+    "cpd_hours_rolling_three_year": 470
   },
   "links": {
     "intellectual_provenance": "https://graph.electrafrost.com",
@@ -44,5 +41,10 @@
       "start_month": 7
     },
     "rolling_years": 3
+  },
+  "contact": {
+    "github": "https://github.com/electrafrost",
+    "email": "mail@electrafrost.com",
+    "website": "https://electrafrost.com"
   }
 }
