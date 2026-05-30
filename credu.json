@@ -1,0 +1,28 @@
+{
+  "credu_version": "1.0",
+  "node": {
+    "practitioner_name": "Electra Frost",
+    "professional_designations": ["FIPA", "CTA", "FTIA"],
+    "primary_jurisdiction": "AU",
+    "additional_jurisdictions": ["MY", "SG"],
+    "node_url": "https://credu.electrafrost.com",
+    "repo_url": "https://github.com/electrafrost/credu-node",
+    "llms_txt": "https://credu.electrafrost.com/llms.txt",
+    "established": "2026-06",
+    "last_updated": "2026-05-30"
+  },
+  "node_purpose": "Continuing professional development record. A verified, machine-readable CPD aggregation for discovery and procurement by AI agents and professional bodies.",
+  "verification_method": "sha256-bitcoin-anchor",
+  "record_summary": {
+    "credentials_count": 0,
+    "cpd_entries_count": 5,
+    "cpd_hours_current_year": 64,
+    "publications_count": 0,
+    "attestations_received": 0,
+    "attestations_given": 0
+  },
+  "links": {
+    "intellectual_provenance": "https://graph.electrafrost.com",
+    "professional_practice": "https://electrafrost.com"
+  }
+}
