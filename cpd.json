@@ -1,0 +1,74 @@
+{
+  "cpd": [
+    {
+      "id": "bluedot-frontier-ai-governance-2025",
+      "title": "AI Safety: Frontier AI Governance, Cohort 1",
+      "provider": "BlueDot Impact",
+      "topic": "AI governance",
+      "format": "structured-course",
+      "completed": "2026-03",
+      "hours": 30,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
+      "evidence_path": null,
+      "skills": ["frontier AI capability assessment", "AI governance", "institutional dependencies", "governance under crisis"],
+      "notes": "ANCHOR THIS ONE FIRST for the demo. It is recent, on-thesis, and you have the certificate. Once OpenTimestamps confirms, set status to anchored and fill the verification block."
+    },
+    {
+      "id": "bluedot-agi-strategy-2026",
+      "title": "AI Safety: AGI Strategy",
+      "provider": "BlueDot Impact",
+      "topic": "AGI strategy",
+      "format": "structured-course",
+      "completed": "2026-01",
+      "hours": 30,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
+      "evidence_path": null,
+      "skills": ["AI threat models", "kill chain analysis", "defence in depth", "beneficial AI strategy"],
+      "notes": null
+    },
+    {
+      "id": "graph-electrafrost-build-2026",
+      "title": "Built graph.electrafrost.com, a machine-readable intellectual provenance graph",
+      "provider": null,
+      "topic": "AI tooling and practitioner-sovereign infrastructure",
+      "format": "building",
+      "completed": "2026-04",
+      "hours": 20,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
+      "evidence_path": null,
+      "skills": ["React", "Cloudflare Workers", "Vectorize", "retrieval", "LLM integration", "AI-assisted development"],
+      "notes": "The building format records AI-assisted tooling work as CPD where no course provider exists. Adjust hours to your real log. Evidence can be the public repo and commit history."
+    },
+    {
+      "id": "credu-node-build-2026",
+      "title": "Built a CREDU node and the v1 fork-and-deploy template",
+      "provider": null,
+      "topic": "Verifiable credential infrastructure on Bitcoin",
+      "format": "building",
+      "completed": "2026-05",
+      "hours": 8,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
+      "evidence_path": null,
+      "skills": ["SHA-256", "Bitcoin anchoring", "OpenTimestamps", "static site deployment", "AI-assisted development"],
+      "notes": null
+    },
+    {
+      "id": "crypto-accounting-academy-2024",
+      "title": "Crypto Accounting Academy, Credential 18",
+      "provider": "The Accountant Quits",
+      "topic": "Crypto-asset accounting",
+      "format": "structured-course",
+      "completed": "2024-07",
+      "hours": null,
+      "verification": { "method": "sha256-bitcoin-anchor", "status": "pending-anchor", "evidence_hash": null, "anchored_at": null, "bitcoin_txid": null, "block_height": null, "block_explorer_url": null },
+      "evidence_path": null,
+      "skills": ["block explorers", "on-chain accounting", "treasury management", "crypto tax", "crypto audit"],
+      "notes": "Add hours from your CPD log."
+    }
+  ],
+  "summary": {
+    "current_year": 2026,
+    "current_year_hours": 64,
+    "rolling_three_year_hours": 88
+  }
+}
