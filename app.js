@@ -32,6 +32,7 @@ function esc(s) {
 }
 function pad(n) { return (n < 10 ? "0" : "") + n; }
 function lastYear(s) { var m = String(s || "").match(/\d{4}/g); return m ? parseInt(m[m.length - 1], 10) : 0; }
+function round1(x) { return Math.round(x * 10) / 10; }
 
 function computePeriod(cfg, ref) {
   cfg = cfg || {};
@@ -58,19 +59,23 @@ function chip(v) {
   }
   return '<span class="chip pending">anchor pending</span>';
 }
+
+// Proof shown inside every expanded row, in all three sections.
+// Certificate slot is always visible, with a placeholder when empty.
+// Verification text is status only; the SHA-256 explanation lives once in the intro.
 function proofBody(v, certPdf, certUrl) {
   const links = [];
   if (certPdf) links.push('<a href="' + esc(certPdf) + '" target="_blank" rel="noopener">View certificate</a>');
   if (certUrl) links.push('<a href="' + esc(certUrl) + '" target="_blank" rel="noopener">Verify with issuer</a>');
-  const linkRow = links.length ? '<p class="proof-links">' + links.join(" &middot; ") + "</p>" : "";
-  let verRow;
+  const certRow = links.length
+    ? '<p class="proof-links">' + links.join(" &middot; ") + "</p>"
+    : '<p class="proof-links muted">Certificate: to be attached</p>';
+  let verRow = "";
   if (v && v.status === "anchored" && v.bitcoin_txid) {
     const url = v.block_explorer_url || ("https://mempool.space/tx/" + v.bitcoin_txid);
-    verRow = '<p class="proof-ver">SHA-256 ' + esc(String(v.evidence_hash || "").slice(0, 16)) + '... anchored to Bitcoin. <a href="' + esc(url) + '" target="_blank" rel="noopener">View transaction</a></p>';
-  } else {
-    verRow = '<p class="proof-ver">A SHA-256 hash of the evidence is anchored to Bitcoin so anyone can confirm when it was anchored and that it has not changed since. This record is not anchored yet.</p>';
+    verRow = '<p class="proof-ver">SHA-256 ' + esc(String(v.evidence_hash || "").slice(0, 16)) + '... <a href="' + esc(url) + '" target="_blank" rel="noopener">View transaction</a></p>';
   }
-  return linkRow + verRow;
+  return certRow + verRow;
 }
 
 function regRow(r) {
@@ -82,17 +87,19 @@ function eduRow(e) {
   const meta = [e.institution, e.level, e.period || e.completed, e.field].filter(Boolean).map(esc).join(" &middot; ");
   return '<details class="acc"><summary><span class="acc-head">' + esc(e.title) + "</span>" + chip(e.verification) + '</summary><div class="acc-body"><p class="acc-meta">' + meta + "</p>" + proofBody(e.verification, e.certificate_pdf, e.certificate_url) + "</div></details>";
 }
-function cpdItem(c) {
+function cpdRow(c) {
   const meta = [c.format, c.provider, c.hours != null ? c.hours + " h" : null, c.completed].filter(Boolean).map(esc).join(" &middot; ");
   const dom = (c.gcpa_domain || []).map(esc);
   const cap = (c.gcpa_capability || []).map(esc);
-  let chips = "";
+  let tags = "";
   if (dom.length || cap.length) {
-    chips = '<div class="tags">' + dom.map(function (d) { return '<span class="tag dom">' + d + "</span>"; }).join("") + cap.map(function (d) { return '<span class="tag">' + d + "</span>"; }).join("") + "</div>";
+    tags = '<div class="tags">' + dom.map(function (d) { return '<span class="tag dom">' + d + "</span>"; }).join("") + cap.map(function (d) { return '<span class="tag">' + d + "</span>"; }).join("") + "</div>";
   }
-  return '<div class="cpd-item"><p class="cpd-title">' + esc(c.title) + '</p><p class="acc-meta">' + meta + "</p>" + chips + "</div>";
+  return '<details class="acc"><summary><span class="acc-head">' + esc(c.title) + "</span>" + chip(c.verification) + '</summary><div class="acc-body"><p class="acc-meta">' + meta + "</p>" + tags + proofBody(c.verification, c.certificate_pdf, c.certificate_url) + "</div></details>";
 }
 
+// Per-area hours: an activity's hours are split evenly across the areas it covers,
+// so the area buckets sum to the period total with no double counting.
 function cpdReport(cpd, lo, hi) {
   const buckets = {};
   let total = 0;
@@ -100,10 +107,13 @@ function cpdReport(cpd, lo, hi) {
     if (!inWindow(c.completed, lo, hi)) return;
     const h = Number(c.hours || 0);
     total += h;
-    (c.gcpa_capability || []).forEach(function (cap) {
+    const caps = c.gcpa_capability || [];
+    if (!caps.length) return;
+    const share = h / caps.length;
+    caps.forEach(function (cap) {
       const dom = CAP_DOMAIN[cap] || "technical";
       buckets[dom] = buckets[dom] || {};
-      buckets[dom][cap] = (buckets[dom][cap] || 0) + h;
+      buckets[dom][cap] = (buckets[dom][cap] || 0) + share;
     });
   });
   const order = ["technical", "professional", "transdisciplinary"];
@@ -112,14 +122,14 @@ function cpdReport(cpd, lo, hi) {
     if (!buckets[dom]) return;
     const rows = Object.keys(buckets[dom]).map(function (k) { return [k, buckets[dom][k]]; }).sort(function (a, b) { return b[1] - a[1]; });
     html += '<div class="report-dom"><h3>' + DOMAIN_LABEL[dom] + "</h3>";
-    rows.forEach(function (row) { html += '<div class="report-row"><span>' + esc(row[0]) + "</span><span>" + (Math.round(row[1] * 10) / 10) + " h</span></div>"; });
+    rows.forEach(function (row) { html += '<div class="report-row"><span>' + esc(row[0]) + "</span><span>" + round1(row[1]) + " h</span></div>"; });
     html += "</div>";
   });
   html += "</div>";
-  return { html: html, total: Math.round(total * 10) / 10 };
+  return { html: html, total: round1(total) };
 }
 function windowSum(cpd, lo, hi) {
-  return Math.round(cpd.reduce(function (a, c) { return a + (inWindow(c.completed, lo, hi) ? Number(c.hours || 0) : 0); }, 0) * 10) / 10;
+  return round1(cpd.reduce(function (a, c) { return a + (inWindow(c.completed, lo, hi) ? Number(c.hours || 0) : 0); }, 0));
 }
 
 function iconLink(kind, href, label) {
@@ -151,10 +161,10 @@ async function render() {
     html += '<h1 class="node-name">' + esc(n.practitioner_name) + "</h1>";
     html += '<p class="node-desig">MY PROFESSIONAL GRAPH</p>';
     html += '<div class="contacts">' + contacts + "</div>";
+    html += '<a class="built-on" href="' + esc(templateUrl) + '" target="_blank" rel="noopener">Built on CREDU, make your own</a>';
     html += "</div>";
     html += '<div class="head-right">';
     html += '<img class="avatar" src="' + esc(avatar) + '" alt="' + esc(n.practitioner_name) + '" />';
-    html += '<a class="credu-mark" href="' + esc(templateUrl) + '" target="_blank" rel="noopener" title="CREDU, fork your own node"><img src="credu-mark.png" alt="CREDU, fork your own node" /></a>';
     html += "</div>";
     html += "</header>";
 
@@ -184,9 +194,9 @@ async function render() {
       const rollTotal = windowSum(cpdList, period.rollStart, period.endExcl);
       html += "<section><h2>Continuing professional development</h2>";
       html += '<p class="summary"><strong>' + esc(rep.total) + "</strong> hours in " + esc(period.label) + ", <strong>" + esc(rollTotal) + "</strong> hours across the rolling " + esc(period.rollingYears) + " years, from " + esc(cpdList.length) + " recorded activities.</p>";
-      html += '<div class="report-wrap"><p class="report-title">Hours by GCPA area in ' + esc(period.label) + ", an activity counts in each area it covers</p>" + rep.html + "</div>";
+      html += '<div class="report-wrap"><p class="report-title">Hours by GCPA area in ' + esc(period.label) + ". Where an activity covers more than one area, its hours are split evenly across them, so the areas sum to the total.</p>" + rep.html + "</div>";
       html += '<details class="acc cpd-log"><summary><span class="acc-head">Activity log</span><span class="chip count">' + esc(cpdList.length) + " activities</span></summary>";
-      html += '<div class="acc-body cpd-items">' + cpdList.map(cpdItem).join("") + "</div></details>";
+      html += '<div class="acc-body cpd-items">' + cpdList.map(cpdRow).join("") + "</div></details>";
       html += "</section>";
     }
 

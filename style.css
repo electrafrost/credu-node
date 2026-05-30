@@ -28,11 +28,10 @@ main { max-width: 820px; margin: 0 auto; padding: 40px 20px 24px; }
 .icon-link { display: inline-flex; align-items: center; justify-content: center; color: var(--muted); margin-right: 16px; text-decoration: none; }
 .icon-link:hover { color: var(--accent); }
 .icon-link svg { display: block; }
-.head-right { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+.built-on { display: inline-block; margin-top: 10px; color: var(--accent); font-style: italic; font-size: 13px; text-decoration: none; }
+.built-on:hover { text-decoration: underline; }
+.head-right { display: flex; align-items: center; flex-shrink: 0; }
 .avatar { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; border: 2px solid var(--line); }
-.credu-mark { display: inline-flex; opacity: 0.9; }
-.credu-mark:hover { opacity: 1; }
-.credu-mark img { width: 40px; height: 40px; display: block; }
 
 /* Intro */
 .read-note { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px; margin: 20px 0 28px; font-size: 14px; color: var(--muted); }
@@ -45,7 +44,7 @@ section { margin: 32px 0; }
 h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 6px; }
 .subtitle { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
 
-/* Accordions */
+/* Accordions (used by registrations, education and CPD) */
 .acc-list { margin-top: 6px; }
 .acc { border: 1px solid var(--line); border-radius: 10px; margin: 8px 0; background: var(--card); overflow: hidden; }
 .acc > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 16px; font-size: 15px; }
@@ -58,6 +57,7 @@ h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: 
 .acc-meta { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
 .proof-links { margin: 10px 0 0; font-size: 13px; }
 .proof-links a { color: var(--accent); }
+.proof-links.muted { color: var(--muted); font-style: italic; }
 .proof-ver { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
 .proof-ver a { color: var(--accent); }
 
@@ -76,10 +76,8 @@ h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: 
 .report-dom h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin: 0 0 6px; }
 .report-row { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; padding: 3px 0; border-bottom: 1px dotted var(--line); }
 .report-row span:last-child { color: var(--muted); white-space: nowrap; }
-.cpd-log .acc-body.cpd-items { padding-top: 6px; }
-.cpd-item { padding: 10px 0; border-bottom: 1px solid var(--line); }
-.cpd-item:last-child { border-bottom: none; }
-.cpd-title { font-weight: 600; font-size: 14px; margin: 0; }
+.cpd-log > .acc-body.cpd-items { padding: 8px 12px 12px; background: #fff; }
+.cpd-items .acc { background: #fff; }
 .tags { margin: 8px 0 0; }
 .tag { display: inline-block; font-size: 12px; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; margin: 0 6px 6px 0; color: var(--muted); }
 .tag.dom { background: #fff4ec; border-color: #f3cdb4; color: var(--accent); text-transform: capitalize; }
