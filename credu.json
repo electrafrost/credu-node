@@ -3,13 +3,14 @@
   "node": {
     "practitioner_name": "Electra Frost",
     "professional_designations": [
+      "GCPA",
       "FIPA",
       "CTA",
-      "FTIA",
-      "GCPA"
+      "FTIA"
     ],
     "primary_jurisdiction": "AU",
     "additional_jurisdictions": [],
+    "avatar": "avatar.jpg",
     "node_url": "https://credu.electrafrost.com",
     "repo_url": "https://github.com/electrafrost/credu-node",
     "llms_txt": "https://credu.electrafrost.com/llms.txt",
@@ -18,6 +19,7 @@
   },
   "node_purpose": "A verifiable, machine-readable record of professional registrations, education and continuing professional development, for discovery and procurement by AI agents and inspection by professional bodies. CPD doubles as an hours tracker mapped to the GCPA competency areas.",
   "verification_method": "sha256-bitcoin-anchor",
+  "credu_template_url": "https://github.com/credu-protocol/professional-graph-template",
   "sections": [
     "registrations",
     "education",
@@ -25,15 +27,20 @@
   ],
   "record_summary": {
     "registrations_count": 5,
-    "education_count": 5,
+    "education_count": 6,
     "cpd_entries_count": 88,
     "cpd_period_label": "FY2025-26",
     "cpd_hours_current_period": 150.5,
-    "cpd_hours_rolling_three_year": 470
+    "cpd_hours_rolling_three_year": 470.0
   },
   "links": {
     "intellectual_provenance": "https://graph.electrafrost.com",
     "professional_practice": "https://electrafrost.com"
+  },
+  "contact": {
+    "github": "https://github.com/electrafrost",
+    "email": "mail@electrafrost.com",
+    "website": "https://electrafrost.com"
   },
   "cpd_reporting": {
     "primary_period": {
@@ -41,10 +48,5 @@
       "start_month": 7
     },
     "rolling_years": 3
-  },
-  "contact": {
-    "github": "https://github.com/electrafrost",
-    "email": "mail@electrafrost.com",
-    "website": "https://electrafrost.com"
   }
 }
