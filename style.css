@@ -67,6 +67,8 @@ h2 { font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif
 .chip.pending { color: var(--pending); background: #fff4d6; }
 .chip.anchored { color: #fff; background: var(--accent); }
 .chip.count { color: var(--muted); background: #efe9e1; }
+.chip-link { text-decoration: none; flex-shrink: 0; }
+.chip-link:hover .chip.anchored { filter: brightness(0.94); }
 
 /* CPD */
 .summary { font-size: 15px; color: var(--ink); margin: -2px 0 16px; }

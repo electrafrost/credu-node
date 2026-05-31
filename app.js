@@ -52,10 +52,24 @@ function computePeriod(cfg, ref) {
 }
 function inWindow(d, lo, hi) { d = String(d || ""); return d >= lo && d < hi; }
 
+// A record is anchored if its status is "anchored" AND it carries either a Bitcoin txid
+// or an OpenTimestamps proof. The chip links to the best verification available:
+// a block explorer when there is a txid, otherwise the .ots proof file.
+function isAnchored(v) {
+  return !!(v && v.status === "anchored" && (v.bitcoin_txid || v.ots_proof));
+}
+function anchorLink(v) {
+  if (!v) return null;
+  if (v.block_explorer_url) return v.block_explorer_url;
+  if (v.bitcoin_txid) return "https://mempool.space/tx/" + v.bitcoin_txid;
+  if (v.ots_proof) return v.ots_proof;
+  return null;
+}
 function chip(v) {
-  if (v && v.status === "anchored" && v.bitcoin_txid) {
-    const url = v.block_explorer_url || ("https://mempool.space/tx/" + v.bitcoin_txid);
-    return '<a class="chip anchored" href="' + esc(url) + '" target="_blank" rel="noopener" onclick="event.stopPropagation();">Anchored on Bitcoin</a>';
+  if (isAnchored(v)) {
+    const url = anchorLink(v);
+    const inner = '<span class="chip anchored">Anchored on Bitcoin</span>';
+    return url ? '<a class="chip-link" href="' + esc(url) + '" target="_blank" rel="noopener" onclick="event.stopPropagation();">' + inner + "</a>" : inner;
   }
   return '<span class="chip pending">anchor pending</span>';
 }
@@ -71,9 +85,18 @@ function proofBody(v, certPdf, certUrl) {
     ? '<p class="proof-links">' + links.join(" &middot; ") + "</p>"
     : '<p class="proof-links muted">Certificate: to be attached</p>';
   let verRow = "";
-  if (v && v.status === "anchored" && v.bitcoin_txid) {
-    const url = v.block_explorer_url || ("https://mempool.space/tx/" + v.bitcoin_txid);
-    verRow = '<p class="proof-ver">SHA-256 ' + esc(String(v.evidence_hash || "").slice(0, 16)) + '... <a href="' + esc(url) + '" target="_blank" rel="noopener">View transaction</a></p>';
+  if (isAnchored(v)) {
+    const hashShort = esc(String(v.evidence_hash || "").slice(0, 16));
+    const parts = [];
+    if (hashShort) parts.push("SHA-256 " + hashShort + "...");
+    if (v.bitcoin_txid && (v.block_explorer_url || true)) {
+      const tx = v.block_explorer_url || ("https://mempool.space/tx/" + v.bitcoin_txid);
+      parts.push('<a href="' + esc(tx) + '" target="_blank" rel="noopener">View transaction</a>');
+    } else if (v.ots_proof) {
+      parts.push('<a href="' + esc(v.ots_proof) + '" target="_blank" rel="noopener">OpenTimestamps proof</a>');
+    }
+    if (v.block_height) parts.push("block " + esc(v.block_height));
+    verRow = '<p class="proof-ver">' + parts.join(" &middot; ") + "</p>";
   }
   return certRow + verRow;
 }
